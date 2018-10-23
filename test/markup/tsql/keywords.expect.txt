@@ -1,8 +1,8 @@
 <span class="hljs-comment">/*
     Hello World  <span class="hljs-comment">/* nested comment ftw */</span>
 */</span>
-<span class="hljs-meta">
-:setvar Type "TABLE"</span>
+
+<span class="hljs-meta">:setvar Type "TABLE"</span>
 
 <span class="hljs-keyword">SET</span> <span class="hljs-keyword">XACT_ABORT</span> <span class="hljs-keyword">ON</span>
 

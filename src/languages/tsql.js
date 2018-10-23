@@ -2672,7 +2672,7 @@ function(hljs) {
     },
     {
       className: 'meta',
-      begin: '^\\s*:(' +
+      begin: '^[\\t ]*:(' +
         '!!|' +
             'connect|' +
             'error|' +
