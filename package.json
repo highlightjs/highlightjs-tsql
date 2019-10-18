@@ -7,20 +7,20 @@
     "T-SQL",
     "sql"
   ],
-  "homepage": "https://github.com/red-gate/highlight.js/",
+  "homepage": "https://github.com/highlightjs/highlightjs-tsql/",
   "version": "1.0.4",
   "author": {
-    "name": "Redgate Software",
+    "name": "highlight.js contributors and Redgate Software",
     "email": "support@red-gate.com"
   },
   "contributors": [],
   "bugs": {
-    "url": "https://github.com/red-gate/highlight.js/issues"
+    "url": "https://github.com/highlightjs/highlightjs-tsql/issues"
   },
   "license": "BSD-3-Clause",
   "repository": {
     "type": "git",
-    "url": "git://github.com/red-gate/highlight.js.git"
+    "url": "https://github.com/highlightjs/highlightjs-tsql.git"
   },
   "main": "./lib/index.js",
   "scripts": {
