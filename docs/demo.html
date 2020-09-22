@@ -1,0 +1,29 @@
+<html>
+  <head>
+    <script type="text/javascript" src="../dist/highlight.min.js"></script>
+    <script type="text/javascript" src="../dist/tsql.min.js"></script>
+    <link rel="stylesheet" href="../dist/ssms.min.css" />
+    <script type="text/javascript">
+      hljs.initHighlightingOnLoad();
+    </script>
+  </head>
+  <body>
+    <pre><code class="language-tsql">
+/*
+    Hello World  /* nested comment ftw */
+*/
+
+:setvar Type "TABLE"
+
+SET XACT_ABORT ON
+
+EXEC sp_help 'foo '' bar'
+
+SELECT COUNT(*) AS counted
+    FROM sys.objects
+    CROSS JOIN sys.schemas
+    WHERE [type] = N'$(Type)'
+      AND UPPER("create_date") > 4
+    </code></pre>
+  </body>
+</html>
