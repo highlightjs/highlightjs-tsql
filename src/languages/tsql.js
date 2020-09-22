@@ -171,7 +171,7 @@ export default function(hljs) {
             'FLOAT ' +
             'FMTONLY ' +
             'FOLLOWING ' +
-            'FOR ' +
+            'FOR|0 ' +
             'FORCE ' +
             'FORCED ' +
             'FORCEPLAN ' +
@@ -1234,25 +1234,26 @@ export default function(hljs) {
             'ANY|' +
             'APPLY|' +
             'BETWEEN|' +
-            'CROSS|' +
+            'CROSS|5' +
             'EXISTS|' +
             'IN|' +
-            'INNER|' +
+            'INNER|5' +
             'IS|' +
-            'JOIN|' +
+            'JOIN|5' +
             'LEFT|' +
             'LIKE|' +
             'MATCHED|' +
             'NOT|' +
             'NULL|' +
             'OR|' +
-            'OUTER|' +
+            'OUTER|5' +
             'PIVOT|' +
             'RIGHT|' +
             'SOME|' +
             'SOURCE|' +
-            'UNPIVOT' +
-            ')\\b'
+            'UNPIVOT|5' +
+            ')\\b',
+      relevance: 0
     },
     {
       className: 'function',
@@ -2670,7 +2671,8 @@ export default function(hljs) {
       className: 'comment',
       begin: '/\\*',
       end: '\\*/',
-      contains: [ 'self' ]
+      contains: [ 'self' ],
+      relevance: 0
     },
     {
       className: 'meta',
@@ -2679,14 +2681,15 @@ export default function(hljs) {
             'connect|' +
             'error|' +
             'exit|' +
-            'on\\s+error|' +
+            'on\\s+error|5' +
             'out|' +
             'quit|' +
             'r|' +
             'reset|' +
-            'setvar' +
+            'setvar|10' +
             ')',
-      end: '$'
+      end: '$',
+      relevance: 0
     }
     ]
   };
