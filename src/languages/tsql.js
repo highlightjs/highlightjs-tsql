@@ -1,11 +1,13 @@
 /*
  Language: Transact-SQL (T-SQL)
  Authors: David Simner <david.simner@red-gate.com>, Grzegorz Smulko <greg.smulko@red-gate.com>
+ Website: https://en.wikipedia.org/wiki/Transact-SQL
  Category: common
  */
 
 function(hljs) {
   return {
+    name: 'T-SQL',
     case_insensitive: true,
     contains: [
     {
