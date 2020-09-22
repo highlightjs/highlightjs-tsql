@@ -5,7 +5,7 @@
  Category: common
  */
 
-function(hljs) {
+export default function(hljs) {
   return {
     name: 'T-SQL',
     case_insensitive: true,
