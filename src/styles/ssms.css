@@ -1,6 +1,6 @@
-/*
+/*!
 
-Microsoft SQL Server Management Studio (SSMS)-like style by David Simner <david.simner@red-gate.com>
+Microsoft SQL Server Management Studio (SSMS)-like style by David Simner and Grzegorz Smulko.
 
 */
 
@@ -37,7 +37,7 @@ Microsoft SQL Server Management Studio (SSMS)-like style by David Simner <david.
 }
 
 .hljs-symbol {
-  color: #008080;
+  color: #000000;
 }
 
 .hljs-comment {
