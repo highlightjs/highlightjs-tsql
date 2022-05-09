@@ -1,6 +1,6 @@
-/*
+/*!
  Language: Transact-SQL (T-SQL)
- Authors: David Simner <david.simner@red-gate.com>, Grzegorz Smulko <greg.smulko@red-gate.com>
+ Authors: David Simner, Grzegorz Smulko <greg.smulko@red-gate.com>
  Website: https://en.wikipedia.org/wiki/Transact-SQL
  Category: common
  */
