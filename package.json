@@ -1,6 +1,7 @@
 {
   "name": "highlight.js-tsql",
   "description": "Syntax highlighting for T-SQL.",
+  "main": "dist/tsql.min.js",
   "keywords": [
     "highlight",
     "syntax",
