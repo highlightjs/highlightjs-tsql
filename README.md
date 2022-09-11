@@ -8,7 +8,11 @@ The below screenshot was captured from a [demo webpage](docs/demo.html) after dr
 
 ## Usage
 
-Simply include the Highlight.js library in your webpage, then load this module.
+Simply include the [highlight.js](https://github.com/highlightjs/highlight.js) library in your webpage, then add this module.
+
+### npm package
+
+This module is hosted on npmjs.org as [highlight.js-tsql](https://www.npmjs.com/package/highlight.js-tsql).
 
 ### Static website or simple usage
 
@@ -16,10 +20,7 @@ Simply load this module after loading Highlight.js. You'll use the minified vers
 
 ```html
 <script type="text/javascript" src="/path/to/highlight.min.js"></script>
-<script
-  type="text/javascript"
-  src="/path/to/highlightjs-tsql/dist/tsql.min.js"
-></script>
+<script type="text/javascript" src="/path/to/highlightjs-tsql/dist/tsql.min.js"></script>
 <link rel="stylesheet" href="/path/to/highlightjs-tsql/dist/ssms.min.css" />
 <script type="text/javascript">
   hljs.highlightAll();

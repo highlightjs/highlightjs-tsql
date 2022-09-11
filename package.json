@@ -1,0 +1,25 @@
+{
+  "name": "highlight.js-tsql",
+  "description": "Syntax highlighting for T-SQL.",
+  "keywords": [
+    "highlight",
+    "syntax",
+    "T-SQL",
+    "sql"
+  ],
+  "homepage": "https://github.com/highlightjs/highlightjs-tsql",
+  "version": "1.1.1",
+  "author": "Greg Smulko",
+  "bugs": {
+    "url": "https://github.com/highlightjs/highlightjs-tsql/issues"
+  },
+  "license": "BSD-3-Clause",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/highlightjs/highlightjs-tsql"
+  },
+  "files": [
+    "dist/tsql.min.js",
+    "dist/ssms.min.css"
+  ]
+}
