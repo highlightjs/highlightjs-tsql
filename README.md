@@ -8,7 +8,11 @@ The below screenshot was captured from a [demo webpage](docs/demo.html) after dr
 
 ## Usage
 
-Simply include the [highlight.js](https://github.com/highlightjs/highlight.js) library in your webpage, then load this module.
+Simply include the [highlight.js](https://github.com/highlightjs/highlight.js) library in your webpage, then add this module.
+
+### npm package
+
+This module is hosted on npmjs.org as [highlight.js-tsql](https://www.npmjs.com/package/highlight.js-tsql).
 
 ### Static website or simple usage
 
