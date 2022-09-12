@@ -9,7 +9,7 @@
     "sql"
   ],
   "homepage": "https://github.com/highlightjs/highlightjs-tsql",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "author": "Greg Smulko",
   "bugs": {
     "url": "https://github.com/highlightjs/highlightjs-tsql/issues"
