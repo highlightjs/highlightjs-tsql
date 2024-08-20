@@ -202,6 +202,7 @@ export default function(hljs) {
             'IDENTITY_INSERT ' +
             'IDENTITYCOL ' +
             'IF ' +
+            'IGNORE ' +
             'IGNORE_CONSTRAINTS ' +
             'IGNORE_DUP_KEY ' +
             'IGNORE_TRIGGERS ' +
@@ -491,6 +492,7 @@ export default function(hljs) {
             'WHEN ' +
             'WHERE ' +
             'WHILE ' +
+            'WINDOW ' +
             'WINDOWS ' +
             'WITH ' +
             'WITHIN ' +
@@ -546,6 +548,8 @@ export default function(hljs) {
             'APP_NAME|' +
             'APPLOCK_MODE|' +
             'APPLOCK_TEST|' +
+            'APPROX_PERCENTILE_CONT|' +
+            'APPROX_PERCENTILE_DISC|' +
             'ASCII|' +
             'ASIN|' +
             'ASSEMBLYPROPERTY|' +
@@ -555,6 +559,7 @@ export default function(hljs) {
             'ATN2|' +
             'AVG|' +
             'BINARY_CHECKSUM|' +
+            'BIT_COUNT|' +
             'BIT_LENGTH|' +
             'CAST|' +
             'CEILING|' +
@@ -598,6 +603,7 @@ export default function(hljs) {
             'DATABASEPROPERTYEX|' +
             'DATALENGTH|' +
             'DATEADD|' +
+            'DATEBUCKET|' +
             'DATEDIFF|' +
             'DATEFROMPARTS|' +
             'DATENAME|' +
@@ -605,6 +611,7 @@ export default function(hljs) {
             'DATETIME2FROMPARTS|' +
             'DATETIMEFROMPARTS|' +
             'DATETIMEOFFSETFROMPARTS|' +
+            'DATETRUNC|' +
             'DAY|' +
             'DB_ID|' +
             'DB_NAME|' +
@@ -646,12 +653,15 @@ export default function(hljs) {
             'FORMATMESSAGE|' +
             'FULLTEXTCATALOGPROPERTY|' +
             'FULLTEXTSERVICEPROPERTY|' +
+            'GENERATE_SERIES|' +
+            'GET_BIT|' +
             'GET_FILESTREAM_TRANSACTION_CONTEXT|' +
             'GETANSINULL|' +
             'GETDATE|' +
             'GETFILENAMESPACEPATH|' +
             'GETPATHLOCATOR|' +
             'GETUTCDATE|' +
+            'GREATEST|' +
             'GROUPING|' +
             'GROUPING_ID|' +
             'HAS_DBACCESS|' +
@@ -672,11 +682,17 @@ export default function(hljs) {
             'IS_ROLEMEMBER|' +
             'IS_SRVROLEMEMBER|' +
             'ISDATE|' +
+            'ISJSON|' +
             'ISNULL|' +
             'ISNUMERIC|' +
+            'JSON_ARRAY|' +
+            'JSON_OBJECT|' +
+            'JSON_PATH_EXISTS|' +
             'KEY_GUID|' +
             'KEY_ID|' +
             'KEY_NAME|' +
+            'LEAST|' +
+            'LEFT_SHIFT|' +
             'LEN|' +
             'LOG|' +
             'LOG10|' +
@@ -721,6 +737,7 @@ export default function(hljs) {
             'REPLACE|' +
             'REPLICATE|' +
             'REVERSE|' +
+            'RIGHT_SHIFT|' +
             'ROUND|' +
             'ROW_NUMBER|' +
             'ROWCOUNT_BIG|' +
@@ -732,6 +749,7 @@ export default function(hljs) {
             'SERVERPROPERTY|' +
             'SESSION_USER|' +
             'SESSIONPROPERTY|' +
+            'SET_BIT|' +
             'SIGN|' +
             'SIGNBYASYMKEY|' +
             'SIGNBYCERT|' +
