@@ -21,6 +21,7 @@
   },
   "files": [
     "dist/tsql.min.js",
+    "dist/tsql.es.min.js",
     "dist/ssms.min.css"
   ]
 }
